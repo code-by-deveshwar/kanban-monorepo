@@ -1,0 +1,17 @@
+[
+  "components/ui/badge.tsx",
+  "components/ui/button.tsx",
+  "components/ui/card.tsx",
+  "components/ui/dropdown-menu.tsx",
+  "components/ui/skeleton.tsx",
+  "components/ui/tooltip.tsx",
+  "components/ui/typography.tsx",
+  "components/ui/kanban/ColumnCard.tsx",
+  "components/ui/kanban/ColumnHeader.tsx",
+  "components/ui/kanban/TaskCard.tsx",
+  "components/ui/kanban/ViewToggle.tsx",
+  "components/ui/kanban/kanbanboard.tsx",
+  "hooks/useKanbanData.ts",
+  "types/statusColors.ts",
+  "types/types.ts"
+]

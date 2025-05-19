@@ -1,0 +1,17 @@
+{
+  "name": "shadcn-kanban-monorepo",
+  "private": false,
+  "version": "0.1.1",
+  "scripts": {
+    "sync-templates": "tsx scripts/sync-templates.ts",
+    "unsync-templates": "tsx scripts/unsync-templates.ts"
+  },
+  "devDependencies": {
+    "chalk": "^5.4.1",
+    "cpy-cli": "^5.0.0",
+    "fs-extra": "^11.3.0",
+    "globby": "^13.2.2",
+    "prompts": "^2.4.2",
+    "tsx": "^4.19.4"
+  }
+}

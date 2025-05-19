@@ -1,0 +1,44 @@
+{
+  "name": "shadcn-kanban",
+  "version": "1.0.9",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "shadcn-kanban": "dist/index.js"
+  },
+  "description": "A ShadCN-style CLI to scaffold a Kanban board UI with React components.",
+  "keywords": [
+    "shadcn",
+    "kanban",
+    "react",
+    "cli",
+    "components"
+  ],
+  "author": "Your Name <your-email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/shadcn-kanban"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "link": "pnpm build && npm link",
+    "pack": "pnpm build && npm pack",
+    "preview": "npm run pack && tar -tf *.tgz | grep templates"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.15.17",
+    "typescript": "^5.4.0"
+  },
+  "files": [
+    "dist/index.js",
+    "templates/"
+  ]
+}
