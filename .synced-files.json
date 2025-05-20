@@ -1,5 +1,4 @@
 [
-  "components/ui/badge.tsx",
   "components/ui/button.tsx",
   "components/ui/card.tsx",
   "components/ui/dropdown-menu.tsx",
@@ -12,6 +11,5 @@
   "components/ui/kanban/ViewToggle.tsx",
   "components/ui/kanban/kanbanboard.tsx",
   "hooks/useKanbanData.ts",
-  "types/statusColors.ts",
   "types/types.ts"
 ]
