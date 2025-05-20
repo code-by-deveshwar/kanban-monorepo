@@ -1,4 +1,4 @@
-import { statusColors } from "../../types/statusColors";
+import { statusColors } from "@/types/types";
 
 interface ColumnHeaderProps {
   title: string;
